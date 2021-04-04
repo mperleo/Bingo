@@ -67,7 +67,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Bingo!</title>
-        <link rel="icon" href="files_style/bingo!.png" type="image" />
+        <link rel="icon" href="files_style/bingo.png" type="image" />
         <link type="text/css" href="files_style/css/mdb.min.css" rel="stylesheet">
         <link type="text/css" href="files_style/css/bingo.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
