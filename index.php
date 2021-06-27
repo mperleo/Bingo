@@ -52,8 +52,11 @@
     }   
 
     if(isset($_GET['cartones'])){
-        //$cartones=cartones(5);
-        header("Location: tabla.php?cartones");
+        header("Location: tabla.php");
+    } 
+
+    if(isset($_GET['pdf'])){
+        header("Location: generarPDF.php");
     } 
 
     $_SESSION['bombo']=$bombo;
@@ -106,6 +109,9 @@
         </div> 
         <div class="d-flex justify-content-center align-items-center">
             <a class="btn btn-success btn-rounded btn-lg margin-buttons-sm" href="index.php?cartones" target="_blank">Generar cartones (WIP)</a> 
+        </div> 
+        <div class="d-flex justify-content-center align-items-center">
+            <a class="btn btn-success btn-rounded btn-lg margin-buttons-sm" href="index.php?pdf" target="_blank">Generar cartones en PDF (WIP)</a> 
         </div> 
 
         <?php

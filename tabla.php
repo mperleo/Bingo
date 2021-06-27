@@ -1,8 +1,6 @@
 <?php
     require 'Bingo_fun.php';
-    if(isset($_GET['cartones'])){
-        $cartones=cartones(5);
-    } 
+    $cartones=cartones(5);
 ?>
 
 <html lang="es">
